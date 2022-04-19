@@ -26,18 +26,18 @@ saveBtn.on("click", function() {
     localStorage.setItem(time, plan);
 });
 
-//saves planned out day after refreshing page
-function savedPlans() {
+// Saves planned out day after refreshing page
+function saveData() {
 
     $(".hour").each(function() {
         var currentHour = $(this).text();
-        var currPlan = localStorage.getItem(currentHour);
+        var currentPlan = localStorage.getItem(currentHour);
         
-        if(currPlan !== null) {
-            $(this).siblings(".plan").val(currPlan);
+        if(currentPlan !== null) {
+            $(this).siblings(".plan").val(currentPlan);
         }
     });
 }
 
 containerColor();
-savedPlans();
+saveData();
