@@ -15,7 +15,7 @@ color coordination to block out present, past and future hours of the day.
 ![Application gif](https://github.com/Lukesturgill/work-day-scheduler/blob/main/assets/Work%20Day%20Scheduler.gif?raw=true)
 
 ## Website
-https://lukesturgill.github.io/work-day-scheduler/
+https://lukesturgill.github.io/work-day-schedule/
 
 ## Contribution
 Luke Sturgill

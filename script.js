@@ -18,6 +18,7 @@ function containerColor() {
     })
 };
 
+// Save button function
 saveBtn.on("click", function() {
 
     var time = $(this).siblings(".hour").text();
@@ -26,7 +27,7 @@ saveBtn.on("click", function() {
     localStorage.setItem(time, plan);
 });
 
-// Saves planned out day after refreshing page
+// Saves planned out day after refreshing page by saving to local storage
 function saveData() {
 
     $(".hour").each(function() {
