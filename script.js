@@ -1,8 +1,7 @@
 var saveBtn = $(".saveBtn");
 
 // Display the current day at the top of page 
-var todaysDate = moment().format('dddd, MMM Do YYYY');
-$("#todaysDay").html(todaysDate);
+$("#todaysDate").text(moment().format('dddd MMMM Do YYYY'));
 
 // Adds color to blocks depending on hour of day and css class properties
 function containerColor() {
