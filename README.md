@@ -12,7 +12,7 @@ color coordination to block out present, past and future hours of the day.
 * Bootstrap
 
 ## Demo
-![Application screenshot](Assets/images/Screen Shot 2022-04-19 at 4.16.32 PM.png)
+![Application screenshot](https://github.com/Lukesturgill/work-day-schedule/blob/main/Assets/images/Screen%20Shot%202022-04-19%20at%204.16.32%20PM.png?raw=true)
 
 ## Website
 https://lukesturgill.github.io/work-day-schedule/
